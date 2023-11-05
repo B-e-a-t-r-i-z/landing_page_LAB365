@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #FFFFFF;
+    margin-left: 10%;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+}
+
+.pagina_inicial {
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 30px;
+    right: 350px;
+    color: #FFFFFF;
+    background: #30C5CC;
+}
+
+.pagina_inicial_destaque{
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 30px;
+    right: 350px;
+    color: #336;
+    background: #FFFFFF;
+}
+
+.pagina_contato {
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    color: #336;
+    background: #FFFFFF;
+}
+
+.pagina_contato_destaque {
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    color: #FFFFFF;
+    background: #30C5CC;   
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    padding: 1px 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.img_pessoas {
+    width: 700px;
+    margin: 0 0 0 100px;
+}
+
+.texto {
+    width: 350px;
+    display: flex;
+    flex-direction: column; 
+    font-size: small;
+}
+
+h2 {
+    font-size: 70px;
+    line-height: 90%;
+    font-weight: 800;
+    color: #336;
+    margin-top: 130px;
+    
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 590;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 70px;
+    color: #39c;
+}
+
+main p {
+    margin: 10px 0 10px;
+    color: #336;    
+    text-align: justify;
+}
+
+.saiba {
+    color: #FFFFFF;
+    background: #30C5CC;
+    line-height: 40px;
+}
+
+footer img {
+    margin: 0 1px 0 0;
+    width: 30px;
+}
+
+/*formulario*/
+
+fieldset {
+    width: 130%;
+    padding: 10px 0 20px;
+    margin-left: 60px;
+    margin-bottom: 47px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.input_padrao {
+    font-family: inherit;
+    line-height: 1.15;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8.5px;
+}
+
+.input_padrao:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(173, 216, 230, 0.5);
+}
+
+#sexo_masculino {
+    margin: 20px 0;
+}
+
+#sexo_feminino {
+    margin: 20px 0;
+}
+
+
+.checkbox{
+    margin: 20px 0;
+    padding-left: 2%;
+}
+
+.enviar {
+    padding: 1px 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #FFFFFF;
+    background: #30C5CC;
+    text-decoration: none;
+}
+
+label {
+    font-weight: bolder;
+}
+
+#mensagem {
+    width: 95%;
+    height: 100px;
+}
+
+#nome {
+    width: 60%;
+}
+
+#endereco {
+    width: 85%;
+}
+
+#email {
+    width: 56%;
+}
+
+#cidade{
+    padding-left: 40%;
+}
+
+#sexo {
+    padding-right: 1%;
+}
